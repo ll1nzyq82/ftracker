@@ -6,3 +6,5 @@
 ||stat.tpns.*.tencent.com^
 ||log.tpns.tencent.com^
 ||log.tpns.*.tencent.com^
+||guid.tpns.tencent.com^
+||guid.tpns.*.tencent.com^
