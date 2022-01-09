@@ -1,2 +1,8 @@
-# Alibaba (issue #1)
+# Chinese Alibaba (issue #1)
 ||amdc.
+
+# Chinese Tencent (issue #2)
+||stat.tpns.tencent.com^
+||stat.tpns.*.tencent.com^
+||log.tpns.tencent.com^
+||log.tpns.*.tencent.com^
