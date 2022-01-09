@@ -1,5 +1,7 @@
 # Chinese Alibaba (issue #1)
 ||amdc.
+||amdc-v4.
+||amdc-v6.
 
 # Chinese Tencent (issue #2)
 ||stat.tpns.tencent.com^
@@ -8,3 +10,4 @@
 ||log.tpns.*.tencent.com^
 ||guid.tpns.tencent.com^
 ||guid.tpns.*.tencent.com^
+
