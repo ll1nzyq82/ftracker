@@ -2,6 +2,7 @@
 ||amdc.
 ||amdc-v4.
 ||amdc-v6.
+$removeparam=surge_ssr
 
 # Chinese Tencent (issue #2)
 ||stat.tpns.tencent.com^
@@ -10,4 +11,3 @@
 ||log.tpns.*.tencent.com^
 ||guid.tpns.tencent.com^
 ||guid.tpns.*.tencent.com^
-
