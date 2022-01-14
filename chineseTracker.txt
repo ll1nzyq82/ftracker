@@ -15,3 +15,10 @@ $removeparam=surge_ssr
 # Singaporean Shopee (issue #3)
 /shpsec^$domain=shopee.*
 /dataapi/dataweb/event$domain=shopee.*
+
+# Chinese Tianyancha (issue #4)
+/reportV2^$domain=tianyancha.com
+/isShow$domain=tianyancha.com
+||tianyancha.com/data_collect^
+||tianyancha.com/clickDataCollect^
+/appLogSave^$domain=tianyancha.com
