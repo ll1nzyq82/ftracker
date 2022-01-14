@@ -11,3 +11,7 @@ $removeparam=surge_ssr
 ||log.tpns.*.tencent.com^
 ||guid.tpns.tencent.com^
 ||guid.tpns.*.tencent.com^
+
+# Singaporean Shopee (issue #3)
+/shpsec^$domain=shopee.*
+/dataapi/dataweb/event$domain=shopee.*
