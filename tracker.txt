@@ -16,6 +16,8 @@ $removeparam=surge_ssr
 /wx6/php/check.php
 /qx6/php/check.php
 ||log.weixin.qq.com^
+||forwardcomm.weixin.qq.com^
+||forwardcommtmp.weixin.qq.com^
 /mmpayfereport^
 /mmsupport-bin/reportforweb
 ||badjs.weixinbridge.com^
