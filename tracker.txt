@@ -11,6 +11,13 @@ $removeparam=surge_ssr
 ||log.tpns.*.tencent.com^
 ||guid.tpns.tencent.com^
 ||guid.tpns.*.tencent.com^
+/wx6/php/check.php
+/qx6/php/check.php
+||log.weixin.qq.com^
+/mmpayfereport^
+/mmsupport-bin/reportforweb
+||badjs.weixinbridge.com^
+/badjs?id=
 
 # Singaporean Shopee (issue #3)
 /shpsec^$domain=shopee.*
