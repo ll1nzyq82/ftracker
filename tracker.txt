@@ -30,3 +30,4 @@ $removeparam=surge_ssr
 ||petalsearch.com^$removeparam=uuid
 # ||petalsearch.com/usercenter/api/user/v1/guide/query
 /guide/query$domain=petalsearch.com
+/webv2?idsite=
