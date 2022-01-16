@@ -25,3 +25,5 @@ $removeparam=surge_ssr
 
 # Chinese Huawei (issue #5)
 ||petalsearch.com^$removeparam=from|source|sid|uuid
+# ||petalsearch.com/usercenter/api/user/v1/guide/query
+/guide/query$domain=petalsearch.com
