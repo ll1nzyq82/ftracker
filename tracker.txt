@@ -11,6 +11,8 @@ $removeparam=surge_ssr
 ||log.tpns.*.tencent.com^
 ||guid.tpns.tencent.com^
 ||guid.tpns.*.tencent.com^
+/log/statistics/push
+/v3/mobile/log/upload
 /wx6/php/check.php
 /qx6/php/check.php
 ||log.weixin.qq.com^
