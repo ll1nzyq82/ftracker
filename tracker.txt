@@ -24,4 +24,4 @@ $removeparam=surge_ssr
 /appLogSave^$domain=tianyancha.com
 
 # Chinese Huawei (issue #5)
-||petalsearch.com^$removeparam=from|sid|uuid
+||petalsearch.com^$removeparam=from|source|sid|uuid
