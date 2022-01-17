@@ -45,3 +45,7 @@ $removeparam=surge_ssr
 # Chinese Qixin (issue #6)
 ||qixin.com/analytics^
 ||qixin.com/analysis^
+
+# Chinese Qcc (issue #7)
+/web/js/collect-error.js
+/web/log-client-error
