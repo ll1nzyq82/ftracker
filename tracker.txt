@@ -46,7 +46,7 @@ $removeparam=surge_ssr
 ||qixin.com/analytics^
 ||qixin.com/analysis^
 
-# Chinese Qcc (issue #7)
+# Chinese Qichacha (issue #7)
 /web/js/collect-error.js
 /web/log-client-error
 ||qcc.com^$removeparam=pageSource
