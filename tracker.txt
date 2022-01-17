@@ -49,3 +49,4 @@ $removeparam=surge_ssr
 # Chinese Qcc (issue #7)
 /web/js/collect-error.js
 /web/log-client-error
+||qcc.com^$removeparam=pageSource
