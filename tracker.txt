@@ -50,6 +50,7 @@ $removeparam=surge_ssr
 /web/js/collect-error.js
 /web/log-client-error
 ||qcc.com^$removeparam=pageSource
+/addClickRecord$domain=qcc.com
 
 # Chinese Sensors Data (issue #8)
 /sa?project=
