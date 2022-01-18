@@ -53,6 +53,9 @@ $removeparam=surge_ssr
 
 # Chinese Sensors Data (issue #8)
 /sa?project=
+/sa.gif?project=
+saJSSDKVtrackCollectConfig
+/config/visualized/Web.conf^
 ||sensorsanalytics.com^
 ||sensorsanalytics.cn^
 ||sensorsdata.com^
