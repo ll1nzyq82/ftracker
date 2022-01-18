@@ -50,3 +50,14 @@ $removeparam=surge_ssr
 /web/js/collect-error.js
 /web/log-client-error
 ||qcc.com^$removeparam=pageSource
+
+# Chinese Sensors Data (issue #8)
+/sa?project=
+||sensorsanalytics.com^
+||sensorsanalytics.cn^
+||sensorsdata.com^
+||sensorsdata.cn^
+||sensorsdatavip.com^
+||sensorsdata.com.tw^
+||sensorsdata.cloud^
+
