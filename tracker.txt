@@ -87,10 +87,14 @@ saJSSDKVtrackCollectConfig
 ||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
 ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
 
-Chinese Coolapk (issue #16)
+# Chinese Coolapk (issue #16)
 ||coolapk.com^$removeparam=shareFrom
 ||coolapk.com^$removeparam=installTime
 ||coolapk.com^$removeparam=installed
 /reportExpose$domain=coolapk.com
 /tpgaReport$domain=coolapk.com
 /downloadStat$domain=coolapk.com
+
+# Taiwanese Gogolook (issue #17)
+||gga.whoscall.com^
+||ggacdn.whoscall.com^
