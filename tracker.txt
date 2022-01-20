@@ -22,6 +22,7 @@ $removeparam=surge_ssr
 /mmsupport-bin/reportforweb
 ||badjs.weixinbridge.com^
 /badjs?id=
+/s.gif?url=
 
 # Singaporean Shopee (issue #3)
 /shpsec^$domain=shopee.*
