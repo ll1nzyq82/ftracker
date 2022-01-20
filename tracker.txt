@@ -90,7 +90,7 @@ saJSSDKVtrackCollectConfig
 ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
 /s.gif?url=
 ||aiqicha.baidu.com^$removeparam=fr
-||bj.bcebos.com^$removeparam
+#||bj.bcebos.com^$removeparam
 .png$domain=bj.bcebos.com
 .jpg$domain=bj.bcebos.com
 
