@@ -74,3 +74,9 @@ saJSSDKVtrackCollectConfig
 # Chinese Weibo (Weico) (issue #11)
 /gettopsug$removeparam=uid|ref|url|Mozilla,domain=weibo.*
 /aj/log^$domain=weibo.*
+
+# Dutch Startpage (issue #12)
+||startpage.com^$removeparam=extVersion
+
+# American Mozilla (issue #13)
+||mozilla.org^$domain=oldversion
