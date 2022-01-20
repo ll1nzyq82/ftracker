@@ -93,6 +93,7 @@ saJSSDKVtrackCollectConfig
 #||bj.bcebos.com^$removeparam
 .png$domain=bj.bcebos.com
 .jpg$domain=bj.bcebos.com
+||trustrcv.baidu.com^
 
 # Chinese Coolapk (issue #16)
 ||coolapk.com^$removeparam=shareFrom
