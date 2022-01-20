@@ -86,8 +86,8 @@ saJSSDKVtrackCollectConfig
 ||trip.com/*/sendlog
 
 # Chinese Baidu (issue #15)
-||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
-||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+# ||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+# ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
 /s.gif?url=
 ||aiqicha.baidu.com^$removeparam=fr
 #||bj.bcebos.com^$removeparam
@@ -106,3 +106,6 @@ saJSSDKVtrackCollectConfig
 # Taiwanese Gogolook (issue #17)
 ||gga.whoscall.com^
 ||ggacdn.whoscall.com^
+
+# Chinese Zhihu (issue #18)
+||zhihu.com/zst/events^
