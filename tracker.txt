@@ -111,3 +111,4 @@ saJSSDKVtrackCollectConfig
 # ||zhihu.com/zst/events^
 ||zhihu.com/*/events^
 ||zhihu.com/log_collect^
+||zhihu.com/collector^
