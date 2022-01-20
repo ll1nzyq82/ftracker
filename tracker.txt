@@ -39,7 +39,6 @@ $removeparam=surge_ssr
 ||petalsearch.com^$removeparam=source
 ||petalsearch.com^$removeparam=sid
 ||petalsearch.com^$removeparam=uuid
-# ||petalsearch.com/usercenter/api/user/v1/guide/query
 /guide/query$domain=petalsearch.com
 
 # Chinese Qixin (issue #6)
