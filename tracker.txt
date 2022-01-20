@@ -86,8 +86,9 @@ saJSSDKVtrackCollectConfig
 ||trip.com/*/sendlog
 
 # Chinese Baidu (issue #15)
-||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
-||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+# ||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+# ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+/s.gif?url=
 
 # Chinese Coolapk (issue #16)
 ||coolapk.com^$removeparam=shareFrom
