@@ -90,6 +90,7 @@ saJSSDKVtrackCollectConfig
 ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
 /s.gif?url=
 ||aiqicha.baidu.com^$removeparam=fr
+||bj.bcebos.com^$removeparam
 
 # Chinese Coolapk (issue #16)
 ||coolapk.com^$removeparam=shareFrom
