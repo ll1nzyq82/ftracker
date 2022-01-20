@@ -80,3 +80,6 @@ saJSSDKVtrackCollectConfig
 
 # American Mozilla (issue #13)
 ||mozilla.org^$domain=oldversion
+
+Chinese Trip.com (Ctrip) (issue #14)
+||trip.com/*/sendlog
