@@ -67,3 +67,10 @@ saJSSDKVtrackCollectConfig
 
 # American Steam China (issue #9)
 /IClientMetricsService^
+
+# Chinese Kuaidi 100 (issue #10)
+||kuaidi100.com/data-report^
+
+# Chinese Weibo (Weico) (issue #11)
+/gettopsug$removeparam=uid|ref|url|Mozilla,domain=weibo.*
+/aj/log^$domain=weibo.*
