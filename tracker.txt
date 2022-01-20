@@ -108,4 +108,6 @@ saJSSDKVtrackCollectConfig
 ||ggacdn.whoscall.com^
 
 # Chinese Zhihu (issue #18)
-||zhihu.com/zst/events^
+# ||zhihu.com/zst/events^
+||zhihu.com/*/events^
+||zhihu.com/log_collect^
