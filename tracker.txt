@@ -91,6 +91,8 @@ saJSSDKVtrackCollectConfig
 /s.gif?url=
 ||aiqicha.baidu.com^$removeparam=fr
 ||bj.bcebos.com^$removeparam
+.png$domain=bj.bcebos.com
+.jpg$domain=bj.bcebos.com
 
 # Chinese Coolapk (issue #16)
 ||coolapk.com^$removeparam=shareFrom
