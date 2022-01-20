@@ -1,1 +1,3 @@
+# Chinese Zhihu (issue #18)
+/resolv?host=
 
