@@ -115,3 +115,5 @@ saJSSDKVtrackCollectConfig
 
 # Chinese bilibili (issue #20)
 /player/online/total$removeparam=ts,domain=bilibili.com
+||bilibili.com^$removeparam=pagefrom
+||bilibili.com^$removeparam=from
