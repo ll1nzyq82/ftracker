@@ -117,3 +117,7 @@ saJSSDKVtrackCollectConfig
 /player/online/total$removeparam=ts,domain=bilibili.com
 ||bilibili.com^$removeparam=pagefrom
 ||bilibili.com^$removeparam=from
+/click-interface^$domain=bilibili.com
+/heartbeat$domain=bilibili.com
+/dm/web/view^$domain=bilibili.com
+||bilibili.com/log^
