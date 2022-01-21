@@ -112,3 +112,6 @@ saJSSDKVtrackCollectConfig
 ||zhihu.com/*/events^
 ||zhihu.com/log_collect^
 ||zhihu.com/collector^
+
+# Chinese bilibili (issue #20)
+/player/online/total$removeparam=ts,domain=bilibili.com
