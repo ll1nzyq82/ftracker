@@ -57,6 +57,7 @@ $removeparam=surge_ssr
 /sa.gif?project=
 saJSSDKVtrackCollectConfig
 /config/visualized/Web.conf^
+/config/Android.conf?project=
 ||sensorsanalytics.com^
 ||sensorsanalytics.cn^
 ||sensorsdata.com^
