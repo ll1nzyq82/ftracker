@@ -1,2 +1,5 @@
 # Chinese Qixin (issue #6)
 /getOcAd$domain=qixin.com
+
+# Chinese Xiaohongshu (RED) (issue #23)
+/ads_engage$domain=xiaohongshu.com
