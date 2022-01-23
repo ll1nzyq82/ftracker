@@ -9,8 +9,8 @@
 ||amdc-v6.
 $removeparam=surge_ssr
 # ||errors.aliyun.com^
-||aliyun.com/error.js
-# ||aliyun.com/error.gif?s=
+||aliyun.com^error.js
+# ||aliyun.com^error.gif?s=
 /error.gif?s=
 
 # Chinese Tencent (issue #2)
@@ -46,8 +46,8 @@ $domain=shopee.*,removeparam=smtt
 # Chinese Tianyancha (issue #4)
 /reportV2^$domain=tianyancha.com
 /isShow$domain=tianyancha.com
-||tianyancha.com/data_collect^
-||tianyancha.com/clickDataCollect^
+||tianyancha.com^data_collect^
+||tianyancha.com^clickDataCollect^
 /appLogSave^$domain=tianyancha.com
 
 # Chinese Huawei (issue #5)
@@ -58,8 +58,8 @@ $domain=shopee.*,removeparam=smtt
 /guide/query$domain=petalsearch.com
 
 # Chinese Qixin (issue #6)
-||qixin.com/analytics^
-||qixin.com/analysis^
+||qixin.com^analytics^
+||qixin.com^analysis^
 
 # Chinese Qichacha (issue #7)
 /web/js/collect-error.js
@@ -89,7 +89,7 @@ saJSSDKVtrackCollectConfig
 /IClientMetricsService^
 
 # Chinese Kuaidi 100 (issue #10)
-||kuaidi100.com/data-report^
+||kuaidi100.com^data-report^
 
 # Chinese Sina Weibo (Weico) (issue #11)
 /gettopsug$removeparam=uid|ref|url|Mozilla,domain=weibo.*
@@ -109,7 +109,7 @@ $domain=weibo.*|sina.*,removeparam=from
 ||mozilla.org^$domain=oldversion
 
 # Chinese Trip.com (Ctrip) (issue #14)
-||trip.com/*/sendlog
+||trip.com^*/sendlog
 
 # Chinese Baidu (issue #15)
 # ||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
@@ -134,13 +134,13 @@ $domain=weibo.*|sina.*,removeparam=from
 ||ggacdn.whoscall.com^
 
 # Chinese Zhihu (issue #18)
-# ||zhihu.com/zst/events^
-||zhihu.com/*/events^
-||zhihu.com/log_collect^
-||zhihu.com/collector^
-||zhihu.com/mqtt^
-||zhihu.com/lastread^
-||zhihu.com/udid
+# ||zhihu.com^zst/events^
+||zhihu.com^*/events^
+||zhihu.com^log_collect^
+||zhihu.com^collector^
+||zhihu.com^mqtt^
+||zhihu.com^lastread^
+||zhihu.com^udid
 ||zhihu.com^$removeparam=X-AD
 ||zhihu.com^$removeparam=ab_signature
 ||zhihu.com^$removeparam=X-SUGER
@@ -155,13 +155,13 @@ $domain=weibo.*|sina.*,removeparam=from
 /click-interface^$domain=bilibili.com
 /heartbeat$domain=bilibili.com
 /dm/web/view^$domain=bilibili.com
-||bilibili.com/log^
+||bilibili.com^log^
 
 # Russian/Cypriot AdGuard (issue #21)
-||adguard.com/qr.json
-||adguard.com/-/event^
-||adguard-vpn.com/-/event^
-||adguard-dns.com/-/event^
+||adguard.com^qr.json
+||adguard.com^-/event^
+||adguard-vpn.com^-/event^
+||adguard-dns.com^-/event^
 
 # North Korean (issue #22)
 /counter$domain=gpsh.edu.kp
@@ -186,5 +186,5 @@ $domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_chan
 # /security-anti-spider^$domain=poizon.*|dewu.*
 # /reportResult$domain=poizon.*|dewu.*
 ||app-log.$domain=poizon.*|dewu.*
-# ||dewu.com/log^
+# ||dewu.com^log^
 /log^$domain=poizon.*|dewu.*
