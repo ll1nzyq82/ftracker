@@ -96,6 +96,8 @@ saJSSDKVtrackCollectConfig
 $domain=weibo.*,removeparam=ref
 ||rum.$domain=weibo.*|sina.*
 $domain=weibo.*|sina.*,removeparam=extparam
+$domain=weibo.*|sina.*,removeparam=entry
+$domain=weibo.*|sina.*,removeparam=from
 
 # Dutch Startpage (issue #12)
 ||startpage.com^$removeparam=extVersion
