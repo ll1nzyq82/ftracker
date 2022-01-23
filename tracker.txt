@@ -83,6 +83,7 @@ saJSSDKVtrackCollectConfig
 # Dutch Startpage (issue #12)
 ||startpage.com^$removeparam=extVersion
 ||startpage.com^$removeparam=source
+||startmail.com^$removeparam=pk_campaign
 
 # American Mozilla (issue #13)
 ||mozilla.org^$domain=oldversion
