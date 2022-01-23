@@ -27,6 +27,8 @@ $removeparam=surge_ssr
 # Singaporean/Chinese Shopee (issue #3)
 /shpsec^$domain=shopee.*
 /dataapi/dataweb/event$domain=shopee.*
+$domain=shopee.*,removeparam=sp_atk
+$domain=shopee.*,removeparam=smtt
 
 # Chinese Tianyancha (issue #4)
 /reportV2^$domain=tianyancha.com
