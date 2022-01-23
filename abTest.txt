@@ -3,3 +3,8 @@
 
 # Chinese Xiaohongshu (RED) (issue #23)
 /abtest^$domain=xiaohongshu.com
+
+# Chinese POIZON (issue #24)
+/ab$domain=poizon.*|dewu.*
+/abtestsdk^$domain=poizon.*|dewu.*
+/abtestsdkapi^$domain=poizon.*|dewu.*
