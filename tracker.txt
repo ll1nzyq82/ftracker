@@ -38,6 +38,9 @@ $removeparam=surge_ssr
 /dataapi/dataweb/event$domain=shopee.*
 $domain=shopee.*,removeparam=sp_atk
 $domain=shopee.*,removeparam=smtt
+/shopee-trackingsdk-live
+/require-trackingsdk.js
+/@shopee/tracking-
 
 # Chinese Tianyancha (issue #4)
 /reportV2^$domain=tianyancha.com
