@@ -145,6 +145,8 @@ $domain=weibo.*|sina.*,removeparam=from
 ||zhihu.com^$removeparam=ab_signature
 ||zhihu.com^$removeparam=X-SUGER
 ||zhihu.com^$removeparam=from_hybrid
+||zhihu.com^$removeparam=config
+||zhihu.com^$removeparam=source
 
 # Chinese bilibili (issue #20)
 /player/online/total$removeparam=ts,domain=bilibili.com
@@ -168,10 +170,13 @@ $domain=weibo.*|sina.*,removeparam=from
 $cookie=xhsTrackerId
 /@xhs/error-tracker
 /ErrorTracker.js$domain=xhscdn.com|cdnxhs.com
-/collect$domain=xiaohongshu.com
-/p_report$domain=xiaohongshu.com
-# ||xiaohongshu.com^$removeparam=launchtimes
-$removeparam=launchtimes,domain=xiaohongshu.com
+# /collect$domain=xiaohongshu.com
+||xiaohongshu.com^*/collect
+# /p_report$domain=xiaohongshu.com
+||xiaohongshu.com^*/p_report
+||xiaohongshu.com^$removeparam=launchtimes
+# $removeparam=launchtimes,domain=xiaohongshu.com
+
 
 # Chinese POIZON (issue #24)
 /report$domain=poizon.*|dewu.*
