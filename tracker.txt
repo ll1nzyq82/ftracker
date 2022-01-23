@@ -133,3 +133,13 @@ saJSSDKVtrackCollectConfig
 
 # North Korean (issue #22)
 /counter$domain=gpsh.edu.kp
+
+# Chinese Xiaohongshu (RED) (issue #23)
+$cookie=xhsTrackerId
+/@xhs/error-tracker
+/ErrorTracker.js$domain=xhscdn.com|cdnxhs.com
+/collect$domain=xiaohongshu.com
+/p_report$domain=xiaohongshu.com
+# ||xiaohongshu.com^$removeparam=launchtimes
+$removeparam=launchtimes,domain=xiaohongshu.com
+
