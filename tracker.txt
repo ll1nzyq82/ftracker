@@ -65,6 +65,10 @@ saJSSDKVtrackCollectConfig
 ||sensorsdatavip.com^
 ||sensorsdata.com.tw^
 ||sensorsdata.cloud^
+||sa.
+||saapi.
+||sensors.
+||*sensors.
 
 # American Steam China (issue #9)
 /IClientMetricsService^
