@@ -138,6 +138,13 @@ $domain=weibo.*|sina.*,removeparam=from
 ||zhihu.com/*/events^
 ||zhihu.com/log_collect^
 ||zhihu.com/collector^
+||zhihu.com/mqtt^
+||zhihu.com/lastread^
+||zhihu.com/udid
+||zhihu.com^$removeparam=X-AD
+||zhihu.com^$removeparam=ab_signature
+||zhihu.com^$removeparam=X-SUGER
+||zhihu.com^$removeparam=from_hybrid
 
 # Chinese bilibili (issue #20)
 /player/online/total$removeparam=ts,domain=bilibili.com
