@@ -24,7 +24,7 @@ $removeparam=surge_ssr
 /badjs?id=
 /s.gif?url=
 
-# Singaporean Shopee (issue #3)
+# Singaporean/Chinese Shopee (issue #3)
 /shpsec^$domain=shopee.*
 /dataapi/dataweb/event$domain=shopee.*
 
@@ -122,3 +122,7 @@ saJSSDKVtrackCollectConfig
 /heartbeat$domain=bilibili.com
 /dm/web/view^$domain=bilibili.com
 ||bilibili.com/log^
+
+# Russian/Cypriot `AdGuard` (issue #21)
+||adguard.com/qr.json
+||adguard.com/-/event^
