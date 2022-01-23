@@ -166,3 +166,12 @@ $cookie=xhsTrackerId
 # ||xiaohongshu.com^$removeparam=launchtimes
 $removeparam=launchtimes,domain=xiaohongshu.com
 
+# Chinese POIZON (issue #24)
+/report$domain=poizon.*|dewu.*
+/buried-point^$domain=poizon.*|dewu.*
+/read-num-report$domain=poizon.*|dewu.*
+$domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_channel_type|shareChannel
+# /security-anti-spider^$domain=poizon.*|dewu.*
+# /reportResult$domain=poizon.*|dewu.*
+||app-log.$domain=poizon.*|dewu.*
+||dewu.com/log^
