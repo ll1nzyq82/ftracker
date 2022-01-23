@@ -138,6 +138,7 @@ saJSSDKVtrackCollectConfig
 # Russian/Cypriot AdGuard (issue #21)
 ||adguard.com/qr.json
 ||adguard.com/-/event^
+||adguard-vpn.com/-/event^
 
 # North Korean (issue #22)
 /counter$domain=gpsh.edu.kp
