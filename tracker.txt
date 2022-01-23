@@ -1,6 +1,6 @@
 ! Title: ftracker
 ! Expires: 1 hour
-! Version: 2022.11
+! Version: 2022.12
 ! Homepage: https://github.com/ll1nzyq82/ftracker
 
 # Chinese Alibaba (issue #1)
@@ -39,13 +39,17 @@ $removeparam=surge_ssr
 /dataapi/dataweb/event$domain=shopee.*
 $domain=shopee.*,removeparam=sp_atk
 $domain=shopee.*,removeparam=smtt
+# ||shopee.*^$removeparam=sp_atk
+# ||shopee.*^$removeparam=smtt
 /shopee-trackingsdk-live
 /require-trackingsdk.js
 /@shopee/tracking-
 
 # Chinese Tianyancha (issue #4)
 /reportV2^$domain=tianyancha.com
+# ||tianyancha.com^*/reportV2^
 /isShow$domain=tianyancha.com
+# ||tianyancha.com^*/isShow
 ||tianyancha.com^data_collect^
 ||tianyancha.com^clickDataCollect^
 /appLogSave^$domain=tianyancha.com
