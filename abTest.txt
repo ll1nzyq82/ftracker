@@ -1,2 +1,5 @@
 # Taiwanese Gogolook (issue #17)
 ||whoscall.com/ab^
+
+# Chinese Xiaohongshu (RED) (issue #23)
+/abtest^$domain=xiaohongshu.com
