@@ -139,6 +139,7 @@ saJSSDKVtrackCollectConfig
 ||adguard.com/qr.json
 ||adguard.com/-/event^
 ||adguard-vpn.com/-/event^
+||adguard-dns.com/-/event^
 
 # North Korean (issue #22)
 /counter$domain=gpsh.edu.kp
