@@ -29,6 +29,7 @@ $removeparam=surge_ssr
 ||forwardcommtmp.weixin.qq.com^
 /mmpayfereport^
 /mmsupport-bin/reportforweb
+/mmwebwx-bin/webwxstatreport
 ||badjs.weixinbridge.com^
 /badjs?id=
 /s.gif?url=
