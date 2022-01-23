@@ -174,4 +174,5 @@ $domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_chan
 # /security-anti-spider^$domain=poizon.*|dewu.*
 # /reportResult$domain=poizon.*|dewu.*
 ||app-log.$domain=poizon.*|dewu.*
-||dewu.com/log^
+# ||dewu.com/log^
+/log^$domain=poizon.*|dewu.*
