@@ -194,3 +194,6 @@ $domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_chan
 ||app-log.$domain=poizon.*|dewu.*
 # ||dewu.com^log^
 /log^$domain=poizon.*|dewu.*
+
+# British Snowplow Analytics (issue #25)
+/i?eid=
