@@ -200,3 +200,4 @@ $domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_chan
 
 # British Snowplow Analytics (issue #25)
 /i?eid=
+com.snowplowanalytics.snowplow
