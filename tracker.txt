@@ -77,13 +77,16 @@ $domain=shopee.*,removeparam=smtt
 saJSSDKVtrackCollectConfig
 /config/visualized/Web.conf^
 /config/Android.conf?project=
-||sensorsanalytics.com^
-||sensorsanalytics.cn^
-||sensorsdata.com^
-||sensorsdata.cn^
-||sensorsdatavip.com^
+# ||sensorsanalytics.com^
+# ||sensorsanalytics.cn^
+||sensorsanalytics.*^
+# ||sensorsdata.com^
+# ||sensorsdata.cn^
+||sensorsdata.*^
+# ||sensorsdatavip.com^
+||sensorsdatavip.*^
 ||sensorsdata.com.tw^
-||sensorsdata.cloud^
+# ||sensorsdata.cloud^
 ||sa.
 ||saapi.
 ||sensors.
