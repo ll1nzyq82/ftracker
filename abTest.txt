@@ -6,15 +6,9 @@
 ||whoscall.com/ab^
 
 # Chinese Xiaohongshu (RED) (issue #23)
-/abtest^$domain=xiaohongshu.com
+# /abtest^$domain=xiaohongshu.com
+||xiaohongshu.com^*/abtest^
 
 # Chinese POIZON (issue #24)
-# /ab$domain=poizon.*|dewu.*
-# /abtestsdk^$domain=poizon.*|dewu.*
-# /abtestsdkapi^$domain=poizon.*|dewu.*
 ||poizon.*^*/ab
 ||dewu.*^*/ab
-# ||poizon.*^*/abtestsdk^
-# ||dewu.*^*/abtestsdk^
-# ||poizon.*^*/abtestsdkapi^
-# ||dewu.*^*/abtestsdkapi^
