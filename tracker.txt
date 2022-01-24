@@ -13,6 +13,7 @@ $removeparam=surge_ssr
 ||aliyun.com^error.js
 # ||aliyun.com^error.gif?s=
 /error.gif?s=
+/config/loggw^
 
 # Chinese Tencent (issue #2)
 ||stat.tpns.tencent.com^
