@@ -2,8 +2,13 @@
 /getOcAd$domain=qixin.com
 
 # Chinese Xiaohongshu (RED) (issue #23)
-/ads_engage$domain=xiaohongshu.com
+# /ads_engage$domain=xiaohongshu.com
+||xiaohongshu.com^*/ads_engage
 
 # Chinese POIZON (issue #24)
-/advertisement^$domain=poizon.*|dewu.*
-/adv^$domain=poizon.*|dewu.*
+# /advertisement^$domain=poizon.*|dewu.*
+# /adv^$domain=poizon.*|dewu.*
+||poizon.*^*/advertisement^
+||dewu.*^*/advertisement^
+||poizon.*^*/adv^
+||dewu.*^*/adv^
