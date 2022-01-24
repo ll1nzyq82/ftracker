@@ -52,7 +52,8 @@ $domain=shopee.*,removeparam=smtt
 # ||tianyancha.com^*/isShow
 ||tianyancha.com^data_collect^
 ||tianyancha.com^clickDataCollect^
-/appLogSave^$domain=tianyancha.com
+# /appLogSave^$domain=tianyancha.com
+||tianyancha.com^*/appLogSave^
 
 # Chinese Huawei (issue #5)
 ||petalsearch.com^$removeparam=from
