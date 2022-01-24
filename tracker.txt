@@ -161,6 +161,7 @@ $domain=weibo.*|sina.*,removeparam=from
 /dm/web/view^$domain=bilibili.com
 ||bilibili.com^log^
 ||bilibili.com^*/abtest
+||bilibili.com^*/abserver
 
 # Russian/Cypriot AdGuard (issue #21)
 ||adguard.com^qr.json
