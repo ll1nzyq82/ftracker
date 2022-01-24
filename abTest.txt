@@ -1,3 +1,7 @@
+# Chinese Tianyancha (issue #4)
+||tianyancha.com/ab-lab^
+||tianyancha.com^*/abLab
+
 # Taiwanese Gogolook (issue #17)
 ||whoscall.com/ab^
 
@@ -5,6 +9,12 @@
 /abtest^$domain=xiaohongshu.com
 
 # Chinese POIZON (issue #24)
-/ab$domain=poizon.*|dewu.*
-/abtestsdk^$domain=poizon.*|dewu.*
-/abtestsdkapi^$domain=poizon.*|dewu.*
+# /ab$domain=poizon.*|dewu.*
+# /abtestsdk^$domain=poizon.*|dewu.*
+# /abtestsdkapi^$domain=poizon.*|dewu.*
+||poizon.*^*/ab
+||dewu.*^*/ab
+# ||poizon.*^*/abtestsdk^
+# ||dewu.*^*/abtestsdk^
+# ||poizon.*^*/abtestsdkapi^
+# ||dewu.*^*/abtestsdkapi^
