@@ -2,6 +2,9 @@
 ||tianyancha.com/ab-lab^
 ||tianyancha.com^*/abLab
 
+# Chinese Qixin (issue #6)
+||qixin.com^*/getABSettings
+
 # Taiwanese Gogolook (issue #17)
 ||whoscall.com/ab^
 
