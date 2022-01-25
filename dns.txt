@@ -1,6 +1,6 @@
-# Chinese Zhihu (issue #18)
+# Chinese Zhihu #18
 /resolv?host=
 
-# Chinese Xiaomi (Mi) (issue #19)
+# Chinese Xiaomi (Mi) #19
 ||resolver.msg.*.xiaomi.net^
 ||resolver.msg.xiaomi.net^
