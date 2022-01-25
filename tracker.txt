@@ -1,6 +1,6 @@
 ! Title: ftracker
 ! Expires: 1 hour
-! Version: 2022.27
+! Version: 2022.28
 ! Homepage: https://github.com/ll1nzyq82/ftracker
 
 # Chinese Alibaba #1
@@ -197,15 +197,20 @@ $cookie=xhsTrackerId
 
 
 # Chinese POIZON (Dewu) #24
-/report$domain=poizon.*|dewu.*
-/buried-point^$domain=poizon.*|dewu.*
-/read-num-report$domain=poizon.*|dewu.*
-$domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_channel_type|shareChannel
+||poizon.*^*/report
+||dewu.*^*/report
+||poizon.*^*/buried-point^
+||dewu.*^*/buried-point^
+||poizon.*^*/read-num-report
+||dewu.*^*/read-num-report
+||poizon.*^*$removeparam=sourceName|share_platform_title|outside_channel_type|shareChannel
+||dewu.*^*$removeparam=sourceName|share_platform_title|outside_channel_type|shareChannel
+||app-log.poizon.
+||app-log.dewu.
+||poizon.*^*/log^
+||dewu.*^*/log^
 # /security-anti-spider^$domain=poizon.*|dewu.*
 # /reportResult$domain=poizon.*|dewu.*
-||app-log.$domain=poizon.*|dewu.*
-# ||dewu.com^log^
-/log^$domain=poizon.*|dewu.*
 
 # British Snowplow Analytics #25
 /i?eid=
