@@ -1,22 +1,22 @@
-# Chinese Tianyancha (issue #4)
+# Chinese Tianyancha #4
 ||tianyancha.com/ab-lab^
 ||tianyancha.com^*/abLab
 
-# Chinese Qixin (issue #6)
+# Chinese Qixin #6
 ||qixin.com^*/getABSettings
 
-# Taiwanese Gogolook (issue #17)
+# Taiwanese Gogolook #17
 ||whoscall.com/ab^
 
-# Chinese bilibili (issue #20)
+# Chinese bilibili #20
 ||bilibili.com^*/abtest
 ||bilibili.com^*/abserver
 
-# Chinese Xiaohongshu (RED) (issue #23)
+# Chinese Xiaohongshu (RED) #23
 # /abtest^$domain=xiaohongshu.com
 ||xiaohongshu.com^*/abtest^
 
-# Chinese POIZON (Dewu) (issue #24)
+# Chinese POIZON (Dewu) #24
 ||poizon.*^*/abtestsdk^
 ||dewu.*^*/abtestsdk^
 ||poizon.*^*/abtestsdkapi^
