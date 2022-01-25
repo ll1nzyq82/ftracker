@@ -1,9 +1,9 @@
 ! Title: ftracker
 ! Expires: 1 hour
-! Version: 2022.26
+! Version: 2022.27
 ! Homepage: https://github.com/ll1nzyq82/ftracker
 
-# Chinese Alibaba (issue #1)
+# Chinese Alibaba #1
 ||amdc.
 ||amdc-v4.
 ||amdc-v6.
@@ -15,7 +15,7 @@ $removeparam=surge_ssr
 /error.gif?s=
 /loggw^
 
-# Chinese Tencent (issue #2)
+# Chinese Tencent #2
 ||stat.tpns.tencent.com^
 ||stat.tpns.*.tencent.com^
 ||log.tpns.tencent.com^
@@ -36,7 +36,7 @@ $removeparam=surge_ssr
 /badjs?id=
 /s.gif?url=
 
-# Singaporean/Chinese Shopee (issue #3)
+# Singaporean/Chinese Shopee #3
 /shpsec^$domain=shopee.*
 /dataapi/dataweb/event$domain=shopee.*
 $domain=shopee.*,removeparam=sp_atk
@@ -47,7 +47,7 @@ $domain=shopee.*,removeparam=smtt
 /require-trackingsdk.js
 /@shopee/tracking-
 
-# Chinese Tianyancha (issue #4)
+# Chinese Tianyancha #4
 # /reportV2^$domain=tianyancha.com
 ||tianyancha.com^*/reportV2^
 # /isShow$domain=tianyancha.com
@@ -60,14 +60,14 @@ $domain=shopee.*,removeparam=smtt
 ||tongji.tianyancha.com^
 ||tianyancha.com^*/event/report
 
-# Chinese Huawei (issue #5)
+# Chinese Huawei #5
 ||petalsearch.com^$removeparam=from
 ||petalsearch.com^$removeparam=source
 ||petalsearch.com^$removeparam=sid
 ||petalsearch.com^$removeparam=uuid
 /guide/query$domain=petalsearch.com
 
-# Chinese Qixin (issue #6)
+# Chinese Qixin #6
 ||qixin.com^analytics^
 ||qixin.com^analysis^
 ||log.qixin.com^
@@ -75,13 +75,13 @@ $domain=shopee.*,removeparam=smtt
 ||qixin.com^*/logIDFAInfo
 ||qixin.com^*/saveDeviceInfo
 
-# Chinese Qichacha (issue #7)
+# Chinese Qichacha #7
 /web/js/collect-error.js
 /web/log-client-error
 ||qcc.com^$removeparam=pageSource
 /addClickRecord$domain=qcc.com
 
-# Chinese Sensors Data (issue #8)
+# Chinese Sensors Data #8
 /sa?project=
 /sa.gif?project=
 saJSSDKVtrackCollectConfig
@@ -103,13 +103,13 @@ saJSSDKVtrackCollectConfig
 # ||*sensors.
 ||*sensors*.
 
-# American Steam China (issue #9)
+# American Steam China #9
 /IClientMetricsService^
 
-# Chinese Kuaidi 100 (issue #10)
+# Chinese Kuaidi 100 #10
 ||kuaidi100.com^data-report^
 
-# Chinese Sina Weibo (Weico) (issue #11)
+# Chinese Sina Weibo (Weico) #11
 /gettopsug$removeparam=uid|ref|url|Mozilla,domain=weibo.*
 /aj/log^$domain=weibo.*
 $domain=weibo.*,removeparam=ref
@@ -118,20 +118,20 @@ $domain=weibo.*|sina.*,removeparam=extparam
 $domain=weibo.*|sina.*,removeparam=entry
 $domain=weibo.*|sina.*,removeparam=from
 
-# Dutch Startpage (issue #12)
+# Dutch Startpage #12
 ||startpage.com^$removeparam=extVersion
 ||startpage.com^$removeparam=source
 ||startmail.com^$removeparam=pk_campaign
 
-# American Mozilla (issue #13)
+# American Mozilla #13
 ||mozilla.org^$domain=oldversion
 
-# Chinese Trip.com (Ctrip) (issue #14)
+# Chinese Trip.com (Ctrip) #14
 ||trip.com^*/sendlog
 
-# Chinese Baidu (issue #15)
-# ||passport.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
-# ||wappass.baidu.com^$domain=~passport.baidu.com|~wappass.baidu.com
+# Chinese Baidu #15
+# ||passport.baidu.com^$domain=) passport.baidu.com|) wappass.baidu.com
+# ||wappass.baidu.com^$domain=) passport.baidu.com|) wappass.baidu.com
 /s.gif?url=
 ||aiqicha.baidu.com^$removeparam=fr
 #||bj.bcebos.com^$removeparam
@@ -139,7 +139,7 @@ $domain=weibo.*|sina.*,removeparam=from
 .jpg$domain=bj.bcebos.com
 ||trustrcv.baidu.com^
 
-# Chinese Coolapk (issue #16)
+# Chinese Coolapk #16
 ||coolapk.com^$removeparam=shareFrom
 ||coolapk.com^$removeparam=installTime
 ||coolapk.com^$removeparam=installed
@@ -147,11 +147,11 @@ $domain=weibo.*|sina.*,removeparam=from
 /tpgaReport$domain=coolapk.com
 /downloadStat$domain=coolapk.com
 
-# Taiwanese Gogolook (issue #17)
+# Taiwanese Gogolook #17
 ||gga.whoscall.com^
 ||ggacdn.whoscall.com^
 
-# Chinese Zhihu (issue #18)
+# Chinese Zhihu #18
 # ||zhihu.com^zst/events^
 ||zhihu.com^*/events^
 ||zhihu.com^log_collect^
@@ -166,7 +166,7 @@ $domain=weibo.*|sina.*,removeparam=from
 ||zhihu.com^$removeparam=config
 ||zhihu.com^$removeparam=source
 
-# Chinese bilibili (issue #20)
+# Chinese bilibili #20
 /player/online/total$removeparam=ts,domain=bilibili.com
 ||bilibili.com^$removeparam=pagefrom
 ||bilibili.com^$removeparam=from
@@ -175,16 +175,16 @@ $domain=weibo.*|sina.*,removeparam=from
 /dm/web/view^$domain=bilibili.com
 ||bilibili.com^log^
 
-# Russian/Cypriot AdGuard (issue #21)
+# Russian/Cypriot AdGuard #21
 ||adguard.com^qr.json
 ||adguard.com^-/event^
 ||adguard-vpn.com^-/event^
 ||adguard-dns.com^-/event^
 
-# North Korean (issue #22)
+# North Korean #22
 /counter$domain=gpsh.edu.kp
 
-# Chinese Xiaohongshu (RED) (issue #23)
+# Chinese Xiaohongshu (RED) #23
 $cookie=xhsTrackerId
 /@xhs/error-tracker
 /ErrorTracker.js$domain=xhscdn.com|cdnxhs.com
@@ -196,7 +196,7 @@ $cookie=xhsTrackerId
 # $removeparam=launchtimes,domain=xiaohongshu.com
 
 
-# Chinese POIZON (Dewu) (issue #24)
+# Chinese POIZON (Dewu) #24
 /report$domain=poizon.*|dewu.*
 /buried-point^$domain=poizon.*|dewu.*
 /read-num-report$domain=poizon.*|dewu.*
@@ -207,10 +207,10 @@ $domain=poizon.*|dewu.*,removeparam=sourceName|share_platform_title|outside_chan
 # ||dewu.com^log^
 /log^$domain=poizon.*|dewu.*
 
-# British Snowplow Analytics (issue #25)
+# British Snowplow Analytics #25
 /i?eid=
 com.snowplowanalytics.snowplow
 
-# Taiwanese Want Want Chinatimes (Infotimes) (issue #26)
+# Taiwanese Want Want Chinatimes (Infotimes) #26
 ||chinatimes.com^$removeparam=ctrack
 ||chinatimes.com^$removeparam=chdtv
