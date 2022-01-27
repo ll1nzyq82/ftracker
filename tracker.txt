@@ -162,11 +162,11 @@ $domain=weibo.*|sina.*,removeparam=from
 ||zhihu.com^mqtt^
 ||zhihu.com^lastread^
 ||zhihu.com^udid
-||zhihu.com^$removeparam=X-AD
-||zhihu.com^$removeparam=ab_signature
-||zhihu.com^$removeparam=X-SUGER
+# ||zhihu.com^$removeparam=X-AD (debugging)
+# ||zhihu.com^$removeparam=ab_signature (debugging)
+# ||zhihu.com^$removeparam=X-SUGER (debugging)
 ||zhihu.com^$removeparam=from_hybrid
-||zhihu.com^$removeparam=config
+# ||zhihu.com^$removeparam=config (debugging)
 ||zhihu.com^$removeparam=source
 
 # Chinese bilibili #20
