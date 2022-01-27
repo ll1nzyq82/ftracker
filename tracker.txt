@@ -14,7 +14,7 @@ $removeparam=surge_ssr
 # ||aliyun.com^error.gif?s=
 /error.gif?s=
 /loggw^
-||*acs*.m.taobao.com^
+# ||*acs*.m.taobao.com^
 
 # Chinese Tencent #2
 ||stat.tpns.tencent.com^
