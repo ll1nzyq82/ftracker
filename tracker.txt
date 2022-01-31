@@ -223,3 +223,7 @@ com.snowplowanalytics.snowplow
 # Taiwanese Want Want Chinatimes (Infotimes) #26
 ||chinatimes.com^$removeparam=ctrack
 ||chinatimes.com^$removeparam=chdtv
+
+# Taiwanese AviviD #27
+||likr.tw^$third-party
+$cookie=/AviviD\_.*/
