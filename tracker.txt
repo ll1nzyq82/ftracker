@@ -232,3 +232,6 @@ $cookie=/AviviD\_.*/
 ||tdm.com.mo^$removeparam=category
 ||statistics.tdm.com.mo^
 ||tdm.com.mo^*/statistics
+
+# Taiwanese udn #31
+||udn.com^$removeparam=from
