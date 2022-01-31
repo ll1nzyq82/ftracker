@@ -4,3 +4,7 @@
 # Chinese Xiaomi (Mi) #19
 ||resolver.msg.*.xiaomi.net^
 ||resolver.msg.xiaomi.net^
+
+# Chinese Meituan (Dianping) #30
+||httpdns.
+/fetch?dm=
