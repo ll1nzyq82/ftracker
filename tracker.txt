@@ -227,3 +227,9 @@ com.snowplowanalytics.snowplow
 # Taiwanese AviviD #27
 ||likr.tw^$third-party
 $cookie=/AviviD\_.*/
+
+# Macanese TDM #28
+||tdm.com.mo^$removeparam=s
+||tdm.com.mo^$removeparam=category
+||statistics.tdm.com.mo^
+||tdm.com.mo^*/statistics
