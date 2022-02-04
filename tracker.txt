@@ -179,24 +179,24 @@ $domain=weibo.*|sina.*,removeparam=from
 # /click-interface^$domain=bilibili.com
 # /heartbeat$domain=bilibili.com
 # /dm/web/view^$domain=bilibili.com
-# ||bilibili.com/log^
+# ||bilibili.*/log^
 ||biliapi.*^*/click
-||bilibili.com^*/click
+||bilibili.*^*/click
 ||biliapi.*^*/report
-||bilibili.com^*/report
+||bilibili.*^*/report
 ||biliapi.*^*/heartbeat
-||bilibili.com^*/heartbeat
+||bilibili.*^*/heartbeat
 ||biliapi.*^*/monitor
-||bilibili.com^*/monitor
+||bilibili.*^*/monitor
 ||biliapi.*^*/apm
-||bilibili.com^*/apm
+||bilibili.*^*/apm
 ||biliapi.*^*/click-interface
-||bilibili.com^*/click-interface
-# ||bilibili.com^*/view
+||bilibili.*^*/click-interface
+# ||bilibili.*^*/view
 ||biliapi.*^*/dm^
 ||bilibili.*^*/dm^
 ||biliapi.*^*/log^
-||bilibili.com^*/log^
+||bilibili.*^*/log^
 
 # Russian/Cypriot AdGuard #21
 ||adguard.com^qr.json
