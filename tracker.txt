@@ -1,6 +1,6 @@
 ! Title: ftracker
 ! Expires: 1 hour
-! Version: 2022.33
+! Version: 2022.34
 ! Homepage: https://github.com/ll1nzyq82/ftracker
 
 # Chinese Alibaba #1
@@ -193,8 +193,6 @@ $domain=weibo.*|sina.*,removeparam=from
 ||biliapi.*^*/click-interface
 ||bilibili.*^*/click-interface
 # ||bilibili.*^*/view
-||biliapi.*^*/dm^
-||bilibili.*^*/dm^
 ||biliapi.*^*/log^
 ||bilibili.*^*/log^
 
