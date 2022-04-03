@@ -15,3 +15,6 @@
 ||360totalsecurity.com^
 ||360safe.com^
 ||safe.360.
+
+# Chinese Huorong #38
+||huorong.cn^
