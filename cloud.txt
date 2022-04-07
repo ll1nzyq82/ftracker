@@ -1,3 +1,4 @@
 # American Amazon China (AWS China) #41
 ||amazonaws.com.cn^
 ||amazonaws.cn^
+||cn-*.amazonaws.
