@@ -1,9 +1,14 @@
 # 通用
 ||safebrowsing.*.cn^
 # - antifraud.fzlm.org.cn
-# - 
+# - antifraudh5.fzlm.org.cn
+# - resource-antifraud.fzlm.org.cn
 # - antifraud.shouji.360.cn
-||antifraud.
+# - fzapp.gjfzpt.cn
+# - oss.gjfzpt.cn
+# ||antifraud.
+||*antifraud*.
+||fzapp.
 
 # Chinese Tencent #2
 ||urlsec.qq.com^
