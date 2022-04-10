@@ -5,10 +5,11 @@
 # - resource-antifraud.fzlm.org.cn
 # - antifraud.shouji.360.cn
 # - fzapp.gjfzpt.cn
+# - fzapph5v1.gjfzpt.cn
 # - oss.gjfzpt.cn
 # ||antifraud.
 ||*antifraud*.
-||fzapp.
+||fzapp*.
 
 # Chinese Tencent #2
 ||urlsec.qq.com^
